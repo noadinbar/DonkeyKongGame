@@ -1,3 +1,14 @@
+# Visual Studio build artifacts
+x64/
+*.exe
+*.pdb
+*.ilk
+*.obj
+*.log
+*.cache
+*.tlog
+
+# VS project-specific
 .vs/
 *.user
 *.suo
@@ -5,6 +16,9 @@
 *.sdf
 *.ipch
 *.db
-*.log
+
+# Build folders
 bin/
 obj/
+Debug/
+Release/
